@@ -23,7 +23,7 @@ int main(){
 	F[0] = F[1] = 1;
 	while (t--){
 		cin >> n;
-		cout << (n == 0 ? 0 : fib(n + 1)) << endl;
+		cout << fib(n + 1) << endl;
 	}
 	return 0;
 }
